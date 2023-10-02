@@ -1,6 +1,6 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        start , end = 0 ,len(nums) - 1 
+        start , end = 0, len(nums) - 1 
         curr_min = float("inf")
         
         while start  <  end :
